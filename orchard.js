@@ -68,6 +68,8 @@ totalAcres += totalAcresArr[i]
 console.log(`Total Acres Array: ${totalAcresArr}`)
 console.log(`Total Acres: ${totalAcres}`)
 
+// for this problem, I declared an array to which I can push all the acres of all the different apple types called 'totalAcresArr'. Then I declared the variable 'totalAcres' for the valueoof the total acres. I then made for loops for each apple kind to identify the value of i on each iteration, then push that value to the totalAcresArr. I then made a for loop for the totalAcresArr and set the value i on each iteration to be added to the value of 'totalAcres' until it goses through the whole array  adn you have the total.
+
 // PROBLEM 2
 
 /*
@@ -85,6 +87,7 @@ console.log(`Total Acres: ${totalAcres}`)
 let averageDailyAcres = (totalAcres/fujiAcres.length)
 
 console.log(`Average Daily Acres: ${averageDailyAcres}`)
+// for this one i simply took the total acres and divided it by the amount of days which holds the same value as fujiAcres.length. This is preferrable to simply putting seven, because if the amount of days changed theoretically, the funciton would still work.
 
 // PROBLEM 3
 
@@ -125,6 +128,10 @@ while(acresLeft > 0){
     days += 1
 }
 console.log(`Total days to pick remaining orchard: ${days}`)
+
+// 
+
+
 // PROBLEM 4
 
 /*
